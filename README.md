@@ -24,6 +24,8 @@ Steps
 
 # Post calls
 
+I have given the example Request Bodies you can use it when you do post calls
+
 #Add user
 
 {
