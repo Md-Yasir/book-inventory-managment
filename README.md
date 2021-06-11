@@ -1,7 +1,7 @@
-# book-inventory-managment
-Services for book inventory management
+# Book-Inventory-Managment
 
 # Api's for maintaining a book inventory using SpringBoot, Java and MySQL
+
 # Steps for running and testing the services
 
 Clone the Project in your system
@@ -24,14 +24,14 @@ Steps
 
 # Post calls
 
-Add user
+#Add user
 
 {
   "name": "string",
   "password": "string"
 }
 
-Add a book
+#Add a book
 
 {
   "google_id": 0,
@@ -40,21 +40,21 @@ Add a book
 }
 
 
-Add a Store
+#Add a Store
 
 {
   "name": "string",
   "userid": 0
 }
 
-Add inventory (Adding books to the specific store)
+#Add inventory (Adding books to the specific store)
  {
   "bookId": 0,
   "count": 0,
   "storeId": 0
   }
  
-Update inventory (Updating the count of the book in a store(bookId and storeId should be existing)
+#Update inventory (Updating count of book in a store(bookId and storeId should be existing)
 {
   "id" : 0,
   "bookId": 0,
